@@ -95,4 +95,4 @@ def update_inquiry_flag(inquiry_id):
     return jsonify({"message": "Flag updated successfully"}), 200
 
 if __name__ == "__main__":
-    app.run(debug=False,host="0.0.0.0")
+    app.run(debug=True)
